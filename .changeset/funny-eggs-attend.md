@@ -14,7 +14,6 @@
 "@scalar/use-tooltip": patch
 "@scalar/api-client": patch
 "@scalar/components": patch
-"@scalar/use-toasts": patch
 "@scalar/use-modal": patch
 "@scalar/themes": patch
 ---
