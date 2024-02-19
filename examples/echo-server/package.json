@@ -1,0 +1,25 @@
+{
+  "name": "@apireference-examples/echo-server",
+  "license": "MIT",
+  "author": "Scalar (https://github.com/khulnasoft)",
+  "homepage": "https://github.com/khulnasoft/apireference",
+  "bugs": "https://github.com/khulnasoft/apireference/issues/new/choose",
+  "version": "0.5.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "nodemon --exec \"vite-node src/index.ts\" --ext ts --quiet --watch ../../packages/echo-server --watch ./"
+  },
+  "type": "module",
+  "dependencies": {
+    "@apireference/echo-server": "workspace:*",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "vite": "^4.5.2",
+    "vite-node": "^0.34.4"
+  }
+}

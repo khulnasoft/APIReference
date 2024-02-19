@@ -1,0 +1,43 @@
+{
+  "name": "@apireference-examples/react",
+  "license": "MIT",
+  "author": "Scalar (https://github.com/khulnasoft)",
+  "homepage": "https://github.com/khulnasoft/apireference",
+  "bugs": "https://github.com/khulnasoft/apireference/issues/new/choose",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "veaury": "^2.3.12",
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@apireference/api-reference": "workspace:*",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.2",
+    "vite-plugin-node-polyfills": "^0.14.1"
+  }
+}

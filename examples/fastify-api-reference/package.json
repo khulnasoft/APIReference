@@ -1,0 +1,28 @@
+{
+  "name": "@apireference-examples/fastify-api-reference",
+  "license": "MIT",
+  "author": "Scalar (https://github.com/khulnasoft)",
+  "homepage": "https://github.com/khulnasoft/apireference",
+  "bugs": "https://github.com/khulnasoft/apireference/issues/new/choose",
+  "version": "0.5.2",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "nodemon --exec \"vite-node src/index.ts\" --ext ts --quiet --watch ../../packages/fastify-api-reference --watch ./",
+    "types:check": "tsc --noEmit --skipLibCheck"
+  },
+  "type": "module",
+  "dependencies": {
+    "@apireference/fastify-api-reference": "workspace:*",
+    "@fastify/swagger": "^8.10.1",
+    "fastify": "^4.23.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.2",
+    "vite-node": "^0.34.4"
+  }
+}

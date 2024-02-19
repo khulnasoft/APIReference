@@ -1,0 +1,29 @@
+{
+  "name": "@apireference-examples/ssg",
+  "license": "MIT",
+  "author": "Scalar (https://github.com/khulnasoft)",
+  "homepage": "https://github.com/khulnasoft/apireference",
+  "bugs": "https://github.com/khulnasoft/apireference/issues/new/choose",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "vue-tsc && vite-ssg build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "dependencies": {
+    "@apireference/api-reference": "workspace:*",
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.2",
+    "vite-ssg": "^0.23.4",
+    "vue-tsc": "^1.8.19"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "@apireference-examples/web",
+  "license": "MIT",
+  "author": "Scalar (https://github.com/khulnasoft)",
+  "homepage": "https://github.com/khulnasoft/apireference",
+  "bugs": "https://github.com/khulnasoft/apireference/issues/new/choose",
+  "version": "0.4.2",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "vue-tsc && vite build",
+    "dev": "vite",
+    "lint": "eslint \"src/**/*.{js,vue}\"",
+    "lint:fix": "eslint \"src/**/*.{js,vue}\" --fix",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "dependencies": {
+    "@apireference/api-client": "workspace:*",
+    "@apireference/api-reference": "workspace:*",
+    "@apireference/swagger-editor": "workspace:*",
+    "@apireference/themes": "workspace:*",
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.21.1",
+    "postcss": "^8.4.31",
+    "postcss-nested": "^6.0.1",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.2",
+    "vite-plugin-node-polyfills": "^0.14.1",
+    "vue-tsc": "^1.8.19"
+  }
+}
